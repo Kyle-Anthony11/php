@@ -1,19 +1,18 @@
 {
-  "name": "textko/php",
-  "description": "Official PHP library for Textko.com",
-  "type": "library",
-  "authors": [
-    {
-      "name": "Textko",
-      "email": "hello@textko.com"
-    }
-  ],
-  "autoload": {
-    "psr-4": {
-      "Textko\\": "src/"
-    }
-  },
-  "require": {
-    "guzzlehttp/guzzle": "^6.4|^7.0",
-  }
+    "name": "textko/php",
+    "description": "Textko PHP SDK for sending SMS in the Philippines",
+    "keywords": ["textko", "sms", "philippines"],
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "^6.4|^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Textko\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
